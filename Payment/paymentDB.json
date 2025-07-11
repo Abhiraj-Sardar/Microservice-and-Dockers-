@@ -1,0 +1,20 @@
+{
+    "payments": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "paymentMethod": "credit_card",
+      "amount": 1999.98,
+      "paymentDate": "2024-07-01T14:10:00Z",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "orderId": 2,
+      "paymentMethod": "upi",
+      "amount": 2499.00,
+      "paymentDate": "2024-06-20T10:05:00Z",
+      "status": "completed"
+    }
+  ]
+}
