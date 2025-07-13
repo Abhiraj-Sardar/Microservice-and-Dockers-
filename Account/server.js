@@ -9,7 +9,7 @@ app.get('/account',(req,res)=>{
     // const response = await axios.get('http://localhost:3002/product'); //calling the product api in /product 
     // console.log(data);
     // res.send({'data':'Hello from account'}); //sending as object
-    res.send(JSON.stringify(data));
+    res.send(data);
 });
 
 app.listen(PORT,()=>{

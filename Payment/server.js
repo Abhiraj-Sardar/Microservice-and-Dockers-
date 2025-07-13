@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3004;
 
-const data = require('../Database/paymentDB.json');
+const data = require('./paymentDB.json');
 
 app.get('/payment',(req,res)=>{
     console.log("This is Payment");
